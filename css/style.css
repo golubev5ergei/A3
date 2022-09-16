@@ -1,0 +1,109 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-800 - latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+.page {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+    background-color: black;
+    min-width: 1249px;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 89px;
+
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* align-items: stretch; */
+    margin: 0;
+    
+}
+
+.header-item {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.header-link {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 39px 30px 26px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-item:hover {
+    background-color: rgb(255, 63, 64);
+}
+
+/* .intro {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header-text {
+    display:inline-block;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.header-text-intro {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-image {
+    display:flex;
+} */
