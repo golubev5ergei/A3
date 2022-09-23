@@ -26,8 +26,7 @@
 					<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
 					<a class="action-button action-button_red" href="">Contact Us</a>
 				</div>
-				<a class="intro__image-link" href="">
-					<img class="intro__image" src="images/img2.jpg" alt="Картинка" width="551" height="356">
+				<a href="#"><img class="intro__image" src="images/img2.jpg" alt="Картинка" width="551" height="356">
 				</a>
 			</section>
 		</div>
@@ -126,52 +125,48 @@
 				<h2 class="subscribe-heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
 				<p class="subscribe-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed d</p>
 			</div>
-			<div class="subscribe-form" action="" method="GET">
-				<div class="subscribe-input">Email Address...</div>
-				<a class="subscribe-button">Subscribe</a>
-			</div>
+			<form class="subscribe-form" action="" method="GET">
+				<input class="subscribe-input" type="email" placeholder="Email Address...">
+				<button class="subscribe-button" type="submit">Subscribe</button>
+			</form>
 		</section>
 		<div class="feedback-contacts">
-			<section class="feedback">
-				<section class="feedback-header">
-					<h2 class="feedback-heading">Get in touch</h2>
-					<p class="feedback-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-					<hr class="line">
+			<div class="feedback-left"></div>
+				<section class="feedback">
+					<section class="feedback-header">
+						<h2 class="feedback-heading">Get in touch</h2>
+						<p class="feedback-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+						<hr class="line">
+					</section>
+					<section class="feedback-body">
+						<form class="feedback-form" action="" method="get">
+							<input class="feedback-input feedback-name" type="text" placeholder="Name">
+							<input class="feedback-input feedback-mail" type="text" placeholder="Your Mail">
+							<textarea class="feedback-input feedback-message" rows="10" placeholder="Type your message..."></textarea>
+							<button class="feedback-button">Send message</button>
+						</form>
+					</section>	
 				</section>
-				<section class="feedback-body">
-					<div class="feedback__form">
-						<div class="feedback__input feedback__name">  Name</div>
-						<div class="feedback__input feedback__mail">  Your Mail</div>
-						<div class="feedback__input feedback__message">Type your message</div>
-						<a class="feedback__button">Send message</a>
-					</div>
+				<section class="contacts">
+					<h3 class="contacts-heading">Contact info</h3>
+					<address>
+						<p>Jalalabad 24 / A, Ambaarkhana, Sylhet,<br>
+						Bangladesh,<br></p>
+						<p></p>redwan@deviserweb.com<br><p>
+						<p>(+88) 017 617 46373<br></p>
+					</address>
 				</section>
-			</section>
-            <section class="contacts">
-				<h2 class="contacts__heading">Contact info</h2>
-				<address class="contacts__address">
-					<p class="contacts__line">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh<br></p>
-					<p class="contacts__line">redwan@deviserweb.com<br></p>
-					<p class="contacts__line">(+88) 017 617 46373<br></p>
-				</address>
-			</section>
+			<div class="feedback-right"></div>
+		</div>
     </main>
     <footer class="footer">
 		<div class="footer-content">
-			<p>&copy; Copyright @Junaed 2016, All rights reserved.</p>
-			<div class="footer__social-links">
-				<a class="footer__link" href="">
-					<img src="images/Twitter_Rounded_Solid.png" alt="Лого">
-				</a>
-				<a class="footer__link" href="">
-					<img src="images/LinkedIn_Rounded_Solid.png" alt="Лого">
-				</a>
-				<a class="footer__link" href="">
-					<img src="images/Google_Rounded_Solid.png" alt="Лого">
-				</a>
-				<a class="footer__link" href="">
-					<img src="images/Facebook_Rounded_Solid.png" alt="Лого">
-				</a>
+			<p style="color: white;">&copy; Copyright @Junaed 2016, All rights reserved.</p>
+			<div class="footer-links">
+			<a class="footer-link" href="#"><img src="images/Twitter_Rounded_Solid.png" alt="лого"></a>
+			<a class="footer__link" href="#"><img src="images/LinkedIn_Rounded_Solid.png" alt="лого"></a>
+			<a class="footer__link" href="#"><img src="images/Google_Rounded_Solid.png" alt="лого"></a>
+			<a class="footer__link" href="#"><img src="images/Facebook_Rounded_Solid.png" alt="лого"></a>
 			</div>
 		</div>
 	</footer>
